@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
         s.setJavaScriptEnabled(true);
         s.setDomStorageEnabled(true);
         
-        // Очистка сессии для каждой "вкладки" (запуска)
         CookieManager.getInstance().removeAllCookies(null);
         CookieManager.getInstance().flush();
         
